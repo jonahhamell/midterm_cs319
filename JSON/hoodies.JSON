@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Flower Hoodies",
+    "image": "/Images/FlowerHoodieAssembly.png",
+    "description":"The first full production item by Lusiant. This came in 3 colorways, brown, blue, and white.",
+    "price": "Currently not available."
+  },
+  {
+    "name": "Beige Solitude Hoodie",
+    "image": "/Images/BeigeSolitudeHoodie.jpeg",
+    "description": "The first streamline produced Lusiant hoodie, comes in Beige, but is also sold in Green",
+    "price": "Currently not available."
+  },
+  {
+    "name": "Green Solitude Hoodie",
+    "image": "/Images/GreenSolitudeHoodie.jpeg",
+    "description": "The first streamline produced Lusiant hoodie, comes in Green, but is also available in Beige.",
+    "price": "Currently not available."
+  },
+  {
+    "name": "Black City Crewneck",
+    "image": "/Images/BlackCityCrew.jpeg",
+    "description": "Lusiants only hoodie so exclusive it never made it into Lusiant's production. This is the Black 'city' Crewneck.",
+    "price": "Currently not available."
+  }
+]

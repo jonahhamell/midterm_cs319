@@ -1,0 +1,3 @@
+At the time of writing this, the website is not working
+I am currently working to get it fixed, however, the website
+should be https://jonahhamell.github.io/midterm_cs319/index.html

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Whale Tail Pants",
+    "image": "/Images/WhaleTailPants.png",
+    "description": "Lusiants first full production pair of pants, perfect for athletic activity",
+    "price": "Currently not available." 
+  },
+  {
+    "name": "Mineral Wash Sweats",
+    "image": "/Images/MineralWashSweats.png",
+    "description": "Mineral Wash pants that look like Jeans, but provide a Sweatpant feel. Released on Valentines Day",
+    "price": "Currently not available."
+  },
+  {
+    "name": "Beige Flower Pants",
+    "image": "/Images/BeigeFlowerPants.png",
+    "description": "Beige flower Sweatpants intended to be created with the Beige Sweater, however, never made it to production.",
+    "price": "Currently not available."
+  },
+  {
+    "name": "White Flower Pants",
+    "image": "/Images/WhiteFlowerPants.png",
+    "description": "White Flower Sweatpants intended to be released with a white sweater, however, never made it to to production.",
+    "price": "Currently not available."
+  }
+]

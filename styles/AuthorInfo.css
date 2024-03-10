@@ -1,0 +1,32 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 60px;
+
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 80px;
+    color: royalblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-left: 120px;
+    color: deepskyblue;
+}
+
+.personal_images {
+    height: 3in;
+    width: 3in;
+    text-align: left;
+
+}

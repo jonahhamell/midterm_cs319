@@ -1,0 +1,231 @@
+header {
+  background-color: #e2e2e2;
+  color: #e2e2e2;
+  padding: 10px 0;
+}
+
+body {
+  background-color: #e2e2e2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2px;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 8px;
+  background-color: #000;
+  color: #e2e2e2;
+}
+
+.toggle-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#closedMessage {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#loginForm {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+header {
+  background-color: #e2e2e2;
+  padding: 20px 0;
+  /* Added padding to the header */
+  display: flex;
+  /* Use flexbox for better alignment */
+  align-items: center;
+  /* Center vertically */
+}
+
+body {
+  background-color: #e2e2e2
+}
+
+footer {
+  background-color: #e2e2e2;
+}
+
+#Dropdown {
+  border: none;
+  outline: none;
+  background-color: #e2e2e2;
+  margin-left: auto;
+  /* Push dropdown to the right */
+  margin-right: 20px;
+  /* Add some margin to the right */
+}
+
+.MainPhoto {
+  text-align: center;
+  margin-top: 50px;
+  /* Added margin-top to center the logo */
+}
+
+.search-bar {
+  display: none;
+  flex-grow: 1;
+  /* Allow the search bar to grow and fill the remaining space */
+  margin: 0 20px;
+  /* Add some margin */
+  position: relative;
+  /* Relative positioning for the close button */
+}
+
+.search-bar input[type="text"] {
+  width: calc(100% - 30px);
+  /* Adjusted width to accommodate the close button */
+  height: 50px;
+  /* Increase the height */
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+}
+
+.search-cancel {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  display: block;
+  /* Set display to block */
+}
+
+.empty-cart-message {
+  font-size: 74px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.album {
+  background-color: #e2e2e2;
+  /* Change to the desired background color */
+}
+
+/* Adjust the style of the card to fit the dimensions of the images */
+.card {
+
+  height: 65%;
+  padding-bottom: 180px;
+}
+
+.card img {
+  height: 4in;
+  width: 4in;
+  object-fit: cover;
+  /* Ensures the image covers the entire card */
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  flex: 1;
+  padding: 1.25rem;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.card-Title {
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-Price {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.py-5-bg-body-tertiary {
+  background-color: #e2e2e2;
+  padding: 20px;
+}

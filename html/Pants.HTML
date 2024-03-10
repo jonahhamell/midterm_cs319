@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <script src="../assets/js/color-modes.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.118.2" />
+
+    <!-- Bootstrap links and sources -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/album/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
+    />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Our own links and sources -->
+    <link href="/styles/styles.css" rel="stylesheet" />
+    <script src="/index.js"></script>
+
+    <title>Pants Drops</title>
+  </head>
+
+  <header id="mainHeader" style="width: 100%">
+    <div
+      class="container-fluid"
+      style="background-color: #e2e2e2; text-align: center"
+    >
+      <div class="row" style="width: 100%">
+        <div
+          class="col"
+          style="
+            padding-left: 0px;
+            padding-top: 40px;
+            background-color: #e2e2e2;
+          "
+        >
+          <!-- Dropdown menu appearance logic (Top Left) -->
+          <label for="Dropdown" style="display: none">SELECT PAGE:</label>
+          <select
+            id="Dropdown"
+            name="Dropdown"
+            onchange="redirectOnChange()"
+            style="
+              border: none;
+              outline: none;
+              background-color: #e2e2e2;
+              text-align: left;
+            "
+          >
+            <option value="ShopPants">SHOP PANTS</option>
+            <option value="ShopHoodies">SHOP HOODIES</option>
+            <option value="Home">HOME</option>
+            <option value="AuthorInfo">AUTHOR INFO</option>
+          </select>
+        </div>
+        <div class="col" style="text-align: center">
+          <!-- Flower Spin GIF wrapped with anchor tag for redirection -->
+          <a
+            href="/Index.HTML"
+            onclick="window.location.href='/Index.HTML'; return false;"
+          >
+            <img
+              src="/MyOtherImages/FlowerSpin.webp"
+              width="200"
+              height="133"
+              alt="Flower Spin"
+            />
+          </a>
+        </div>
+        <div class="col" style="text-align: center; padding-top: 40px">
+          <!-- Search icon -->
+          <span
+            class="fa fa-search"
+            style="font-size: 24px; color: black; cursor: pointer"
+            onclick="toggleSearchBar()"
+          ></span>
+          <!-- Cart icon -->
+          <a href="cart.html">
+            <span
+              class="fa fa-shopping-cart"
+              style="font-size: 24px; color: black"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="search-bar" id="searchBar">
+    <input type="text" placeholder="Type your search..." />
+    <span class="search-cancel" onclick="cancelSearch()"
+      ><i class="fas fa-times"></i
+    ></span>
+  </div>
+
+  <body>
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <h1 style="font-family: Georgia, 'Times New Roman', Times, serif">
+            Past Pants Drops
+          </h1>
+          <p>
+            Unfortunately these pants are no longer for sale, better luck next
+            time. Enjoy our history while you wait!
+          </p>
+        </div>
+      </section>
+
+      <div
+        class="album py-5 bg-body-tertiary"
+        style="background-color: #e2e2e2"
+      >
+        <div class="container">
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"
+            id="pantsAlbum"
+          >
+            <!-- Pant cards will be dynamically loaded here -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-body-secondary py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+
+        <p class="mb-1" style="text-align: center">
+          Album shows a brief history and future of Lusiant, pay attention to
+          dates for the future drops, which you can find
+          <a href="/Index.html">HERE</a>
+        </p>
+      </div>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
